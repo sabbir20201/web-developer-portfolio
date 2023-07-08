@@ -232,56 +232,91 @@ main {
 
 .summary-heading {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
-/* 
-.my-education> h1 {
-    color: #181818;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-} */
 .summary-section>h1 {
     color: #181818;
     text-align: center;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 700;
 }
 
 .my-education>h1 {
     color: #474747;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
+    padding-bottom: 20px;
 
 }
-.my-experience > h1{
+
+.my-experience>h1 {
     color: #474747;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
+    padding-bottom: 20px;
 }
-.my-education-box > h4 {
-    color:  #474747;
+
+.my-education-box>h4 {
+    color: #474747;
     line-height: normal;
-font-size: 25px;
+    font-size: 22px;
+    padding-bottom: 8px;
 
 
 }
-.my-education-box > h5 {
-    color:  #757575;
 
-font-size: 20px;
-line-height: normal;
-font-weight: 600;
+.my-education-box>h5 {
+    color: #757575;
+
+    font-size: 17px;
+    line-height: normal;
+    font-weight: 600;
 
 }
-.my-education-box > p {
-    color:#757575;
 
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
+.my-education-box>p {
+    color: #757575;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.my-education-box>p {
+    padding: 10px 112px 10px 0px;
+}
+
+.cv {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hr {
+    margin: 10px 0 16px 0;
+}
+
+.download-cv {
+
+    background-color: #FD6E0A;
+    color: whitesmoke;
+    padding: 11px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin: 15px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer start  */
+footer {
+    background-color: #FFF8F3;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
 }
