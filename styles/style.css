@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+
+
+}
+/* navber start  */
+h3 {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 130px;
+    align-items: center;
+
+
+
+}
+
+span {
+    color: #FD6E0A;
+}
+
+.nav-h3 {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul>li {
+    list-style: none;
+    margin-right: 45px;
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #131111;
+    font-weight: bold;
+}
+/* navber end  */
+
+/* header start  */
+.header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner-content {
+    display: flex;
+padding: 30px 30px 0 130px;
+justify-content: space-between;
+}
+
+.banner-description {
+    padding-top: 111px;
+    width: 500px;
+}
+.btn {
+    background-color: #FD6E0A;
+    color: whitesmoke;
+    padding: 13px 28px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.banner-img {
+
+}
+
+.mary-hardy-h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-para {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner-h3 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+img {
+    width: 500px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* header end  */
+
+/* about me css start   */
+.about-me-section {
+    margin: 80px 0px;
+}
+
+.about-me-container {
+
+    margin: auto;
+    background: #FFF8F3;
+    text-align: center;
+    padding: 120px 152px;
+    border-radius: 10px;
+}
+
+.about-me-h3 {
+    padding-bottom: 20px;
+}
+
+.about-me-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.small-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.p1 {
+    padding-bottom: 26px;
+}
+
+.about-me {
+    background: #FFF8F3;
+}
+
+
+/* about me css end   */
+/* what i do css start  */
+
+.what-i-do-container {
+    max-width: 1140px;
+    margin: 0px auto;
+
+}
+
+.what-i-do-section {
+    margin: 80px 0px;
+}
+
+.what-i-do-h1 {
+    text-align: center;
+}
+
+.what-i-do-para {
+    padding: 25px 122px;
+    text-align: center;
+}
+
+
+.card-icon {
+    padding-bottom: 15px;
+    width: 44px;
+    height: 44px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.card-box {
+    padding: 16px 20px;
+    background: #FFF;
+    /* margin: 0 16px; */
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card-box-para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.card-box-h4 {
+    padding-bottom: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+/* what i do css end  */
