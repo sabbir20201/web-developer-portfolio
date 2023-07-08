@@ -9,6 +9,7 @@ body {
 
 
 }
+
 /* navber start  */
 h3 {
     font-weight: 800;
@@ -54,6 +55,7 @@ ul li a {
     color: #131111;
     font-weight: bold;
 }
+
 /* navber end  */
 
 /* header start  */
@@ -63,16 +65,18 @@ ul li a {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+
 .banner-content {
     display: flex;
-padding: 30px 30px 0 130px;
-justify-content: space-between;
+    padding: 30px 30px 0 130px;
+    justify-content: space-between;
 }
 
 .banner-description {
     padding-top: 111px;
     width: 500px;
 }
+
 .btn {
     background-color: #FD6E0A;
     color: whitesmoke;
@@ -84,9 +88,7 @@ justify-content: space-between;
     margin-right: 20px;
 }
 
-.banner-img {
-
-}
+.banner-img {}
 
 .mary-hardy-h1 {
     color: #181818;
@@ -116,6 +118,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* header end  */
 
 /* about me css start   */
@@ -218,3 +221,67 @@ main {
 
 
 /* what i do css end  */
+.summary-section {
+    margin: 150px 0px;
+}
+
+.summary {
+    display: flex;
+    gap: 30px;
+}
+
+.summary-heading {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* 
+.my-education> h1 {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} */
+.summary-section>h1 {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.my-education>h1 {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.my-experience > h1{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.my-education-box > h4 {
+    color:  #474747;
+    line-height: normal;
+font-size: 25px;
+
+
+}
+.my-education-box > h5 {
+    color:  #757575;
+
+font-size: 20px;
+line-height: normal;
+font-weight: 600;
+
+}
+.my-education-box > p {
+    color:#757575;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
